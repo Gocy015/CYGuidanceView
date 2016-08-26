@@ -73,6 +73,9 @@
     [guide addStep:@[oran1,oran2]];
     [guide addStep:@[blueInfo]];
     [guide addStep:@[pinkInfo]];
+    
+    guide.hintText = @"Tap to continue.";
+    
     [guide showInView:self.view animated:YES];
     
 }
