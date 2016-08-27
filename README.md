@@ -9,6 +9,8 @@ A light weight guidance view for iOS ! An easy way to show a guide tour for your
 
 ## Installation
 Add `pod 'CYGuidanceView'` to your Podfile.
+If you want to force cocoapods to install the latest commit ,
+add `pod 'CYGuidanceView' , :git => 'https://github.com/Gocy015/CYGuidanceView.git' ,:tag => '0.0.1'` instead
 
 ## Usage
 Add `#import "CYGuidanceView.h"` to your file ,and construct the guide view :
